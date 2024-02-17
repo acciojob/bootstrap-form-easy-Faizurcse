@@ -9,33 +9,33 @@
 
 <body>
 	<form action="#" class="border m-2">
-    <div class="m-2 justify-space-around">
+    <div class="m-2">
 	<h1 class="text-center">Internship Form</h1>
 		<div class="row m-0">
 	<div class="col">
-		<label for="first-name-input">First Name</label><br>
+		<label for="first-name-input" class='form-label'>First Name</label><br>
 	<input type="text" id="first-name-input" required>
 	</div>
 
 	<div class="col">
-		<label for="last-name-input">Last Name</label><br>
+		<label for="last-name-input" class='form-label'>Last Name</label><br>
 	    <input type="text" id="last-name-input" required>
 	</div>
 
 	<div class="col">
-		<label for="email-input">Email Address</label><br>
+		<label for="email-input" class='form-label'>Email Address</label><br>
 	    <input type="email" id="email-input" required>
 	</div>
 	</div>
 
 		<div class="row m-0">
 			<div class="col">
-		<label for="college-input">College</label><br>
+		<label for="college-input" class='form-label'>College</label><br>
 	    <input type="text" id="college-input" required>
 	    </div>
 			<div class="col">
-				<label for="graduation-year">Graduation year</label><br>
-				<select class="pe-5" required id="graduation-year">
+				<label for="grad-year-select" class='form-label'>Graduation year</label><br>
+				<select class="pe-5" required id="grad-year-select">
 					<option>2020</option>
 					<option>2021</option>
 					<option>2022</option>
@@ -44,13 +44,13 @@
 			</div>
 
 				<div class="col">
-		<label for="roll-no-input">Roll Number</label><br>
+		<label for="roll-no-input" class='form-label'>Roll No.</label><br>
 	    <input type="text" id="roll-no-input" required>
 	    </div>
 		</div>
 		<div class="row m-0">
 			<div class="col">
-			<input type="checkbox" id="conditions-checkbox" required><lable for="conditions-checkbox">Agree to terms and conditions</lable>
+			<input type="checkbox" id="conditions-checkbox" required><label for="conditions-checkbox" class='form-label'>Agree to terms and conditions</label>
 			</div>
 		</div>
 
@@ -61,9 +61,6 @@
 		</div>
   </div>
 	</form>
-
-
-	
     <script type="text/javascript" src="./script.js">
 </script>
 
